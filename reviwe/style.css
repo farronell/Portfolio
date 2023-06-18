@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+ 
+body {
+    max-height: 850px;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 400px;
+    /* height: 30%; */
+    margin: 25px auto;
+    padding: 0 50px;
+    background: whitesmoke;
+}
+h1 {
+    margin: 10px auto;
+}
+
+
+
+fieldset{
+    border: none;
+    border-top: 3px solid rgb(23, 194, 163);
+    text-align: left;
+    padding: 0;
+} 
+fieldset:nth-child(3) {
+    border: none;
+}
+fieldset:nth-child(5) {
+    border: none;
+}
+
+label {
+    /* border: 1px solid red; */
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 3px solid green;
+}
+
+    input[type="text"] {
+    box-shadow: rgba(61, 126, 237, 0.559) 0px -10px 36px -28px inset;
+    }
+    input[type="email"] {
+    box-shadow: rgba(61, 126, 237, 0.559) 0px -10px 36px -28px inset;
+    }
+
+input[type="file"] {
+    width: 50%;
+    display: none;
+}
+.photo {
+    text-align: center;
+    border: 1px solid rgba(13, 13, 150, 0.657);
+    border-radius: 20px;
+    background-color: rgba(13, 13, 150, 0.657);
+    color: whitesmoke;
+    margin: 10px auto;
+}
+
+textarea {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+    font-family: "Poppins";
+    border: none;
+    border-bottom: 3px solid green;
+    box-shadow: rgba(61, 126, 237, 0.559) 0px -10px 36px -28px inset;
+}
+
+button {
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: green;
+    color: whitesmoke;
+    width: 50%;
+    height: 30px;
+    margin: 10px auto;
+}

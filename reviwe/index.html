@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap"
+        rel="stylesheet">
+    <title>Service reviwe</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>SERVICE REVIWE</h1>
+            <p>Please rate the quality of service</p>
+            <p>This will help us get better</p>
+        </header>
+        <main>
+
+            <form action="">
+                <fieldset class="personal_info">
+
+                    <legend>Personal info</legend>
+
+                    <label for="name">Your name</label>
+                    <input type="text" placeholder="Name" required>
+
+                    <label for="email">Your email</label>
+                    <input type="email" placeholder="Email" required>
+
+                </fieldset>
+                <fieldset>
+
+                    <legend>Reviwe</legend>
+
+                    <label for="">Total reviwe</label>
+                    <input type="range" name="total_reviwe" id="total_reviwe" max="5" min="0" step="0.5" value="0"
+                        required>
+                </fieldset>
+                <fieldset>
+
+                    <label for="">Food</label>
+                    <input type="range" name="food" id="food_reviwe" max="5" min="0" step="0.5" value="1">
+                    <label for="">Service</label>
+                    <input type="range" name="service" id="service_reviwe" max="5" min="0" step="0.5" value="1">
+                    <label for="">Atmosphere</label>
+                    <input type="range" name="atmosphere" id="atmosphere_reviwe" max="5" min="0" step="0.5" value="1">
+
+                </fieldset>
+                <fieldset>
+
+                    <legend>Commentary</legend>
+
+                    <textarea name="commentary" id="" cols="30" rows="10"
+                        placeholder="A few words about the place"></textarea>
+
+                </fieldset>
+                <fieldset>
+
+                    <legend>Your photo</legend>
+                    <label for="photo" class="photo">Select photo</label>
+                    <input type="file" id="photo">
+
+                </fieldset>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
