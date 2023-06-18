@@ -84,6 +84,7 @@ textarea {
     border: none;
     border-bottom: 3px solid green;
     box-shadow: rgba(61, 126, 237, 0.559) 0px -10px 36px -28px inset;
+    resize: none;
 }
 
 button {
